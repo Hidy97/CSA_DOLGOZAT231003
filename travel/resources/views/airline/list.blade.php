@@ -3,7 +3,7 @@
     {{csrf_field()}}
     {{method_field('GET')}}
     <div class="form-group">
-        <input type="submit" value="{{$airline->title}}">
+        <input type="submit" value="{{$airline->name}}">
     </div>
 </form>
 @endforeach

@@ -49,7 +49,7 @@ class AirlineController extends Controller
     }
 
     public function listView(){
-        $airline = Airline::all();
-        return view('airline.list', ['airline' => $airline]);
+        $airlines = Airline::all();
+        return view('airline.list', ['airlines' => $airlines]);
     }
 }
